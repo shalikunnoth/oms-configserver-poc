@@ -1,0 +1,22 @@
+config:
+  message: Message from Config Repo abce
+  kvMessage: ${poc-config-kv}
+
+logging:
+  level:
+    ROOT: INFO
+    org.springframework.web: TRACE
+    org.apache.http: TRACE
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  info:
+    env:
+      enabled: true
+  endpoint:
+    info:
+      enabled: true
+    
