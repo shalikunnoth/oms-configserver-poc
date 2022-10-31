@@ -1,5 +1,5 @@
 config:
-  message: Message from Config Repo abce
+  message: Message from Config Repo abce updated
   kvMessage: ${poc-config-kv}
 
 logging:
