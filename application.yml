@@ -1,0 +1,29 @@
+spring:
+  main:
+    allow-bean-definition-overriding: true
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: info,env,refresh
+  info:
+    env:
+      enabled: true
+  endpoint:
+    info:
+      enabled: true
+    refresh:
+      enabled: true
+
+jackson:
+    deserialization:
+      fail-on-unknown-properties: true
+    serialization:
+      write-dates-as-timestamps: false
+
+logging:
+  level:
+    ROOT: INFO
+    org.springframework.web: TRACE
+    org.apache.http: TRACE
