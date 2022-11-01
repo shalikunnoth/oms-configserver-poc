@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: order-config-poc
+config:
+  message: Order Config POC Cloud Message
+  kvMessage: ${poc-config-kv}
