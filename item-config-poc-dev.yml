@@ -1,0 +1,6 @@
+spring:
+  application:
+    name: item-config-poc
+config:
+  message: Item Config POC Dev Message
+  kvMessage: key item dev message
