@@ -3,3 +3,4 @@ spring:
     name: item-config-poc
 config:
   message: Item Config POC Message
+  kvMessage: key item message
