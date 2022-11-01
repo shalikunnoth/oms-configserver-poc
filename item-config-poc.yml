@@ -1,2 +1,5 @@
+spring:
+  application:
+    name: item-config-poc
 config:
   message: Item Config POC Message
