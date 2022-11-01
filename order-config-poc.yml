@@ -3,3 +3,4 @@ spring:
     name: order-config-poc
 config:
   message: Order Config POC Message
+  kvMessage: ${poc-config-kv}
